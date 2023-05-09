@@ -39,7 +39,7 @@
 >    $ mysql -uroot -p
 >    ```
 >
->    ![]()
+>    ![](https://github.com/hulk-ben/notebook/blob/master/image/%E6%88%AA%E5%9B%BE%202023-05-09%2017-03-38.png?raw=true)
 
 ## 二、配置
 
@@ -49,7 +49,7 @@
 > mysql> alter user 'root'@'localhost' identified by '12345';
 > ```
 >
-> ![]()
+> ![](https://github.com/hulk-ben/notebook/blob/master/image/%E6%88%AA%E5%9B%BE%202023-05-09%2017-08-09.png?raw=true)
 >
 > 2. 使用mysql库，将root的host改为想监听的地址或所有（%）,并刷新
 >
@@ -60,11 +60,11 @@
 > mysql> flush privileges;
 > ```
 >
-> ![]()
+> ![](https://github.com/hulk-ben/notebook/blob/master/image/%E6%88%AA%E5%9B%BE%202023-05-09%2017-25-13.png?raw=true)
 >
 > 3. 将配置文件/etc/mysql/mysql.conf.d/mysqld.conf更改为监听所有地址,并重启服务
 >
-> ![]()
+> ![](https://github.com/hulk-ben/notebook/blob/master/image/%E6%88%AA%E5%9B%BE%202023-05-09%2017-52-00.png?raw=true)
 >
 > 4. 连接
 >
@@ -74,7 +74,7 @@
 
 ## 其他问题
 
-> 在用root账户登陆时会提示错误![]()
+> 在用root账户登陆时会提示错误![](https://github.com/hulk-ben/notebook/blob/master/image/%E6%88%AA%E5%9B%BE%202023-05-09%2018-10-56.png?raw=true)
 >
 > 可以进入数据库更改验证模块
 >
